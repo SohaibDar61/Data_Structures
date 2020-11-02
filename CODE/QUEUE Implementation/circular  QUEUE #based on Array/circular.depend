@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1604145071 source:s:\c files\data structures\#queue\queue by me\circular\main.c
+	<stdio.h>
+	<stdlib.h>
+	"que.h"
+
+1604141961 s:\c files\data structures\#queue\queue by me\circular\que.h
+	"que_type.h"
+
+1604145037 source:s:\c files\data structures\#queue\queue by me\circular\que.c
+	"que.h"
+	<stdio.h>
+
+1604066563 s:\c files\data structures\#queue\queue by me\circular\que_type.h
+
+1604145071 source:s:\c files\data structures\data\queue implementation\circular  queue #based on array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"que.h"
+
+1604302479 s:\c files\data structures\data\queue implementation\circular  queue #based on array\que.h
+	"que_type.h"
+
+1604066563 s:\c files\data structures\data\queue implementation\circular  queue #based on array\que_type.h
+
+1604302479 source:s:\c files\data structures\data\queue implementation\circular  queue #based on array\que.c
+	"que.h"
+	<stdio.h>
+

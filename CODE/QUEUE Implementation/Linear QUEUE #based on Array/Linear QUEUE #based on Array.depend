@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1604114608 source:s:\c files\data structures\#queue\queue by me\linear queue #based on array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"QUEUE.h"
+
+1604113161 s:\c files\data structures\#queue\queue by me\linear queue #based on array\queue.h
+	"QUEUE_TYPE.h"
+
+1603988076 s:\c files\data structures\#queue\queue by me\linear queue #based on array\queue_type.h
+
+1604114259 source:s:\c files\data structures\#queue\queue by me\linear queue #based on array\queue.c
+	"QUEUE.h"
+	<stdio.h>
+	<stdlib.h>
+
+1604114608 source:s:\c files\data structures\data\queue implementation\linear queue #based on array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"QUEUE.h"
+
+1604302872 s:\c files\data structures\data\queue implementation\linear queue #based on array\queue.h
+	"QUEUE_TYPE.h"
+
+1603988076 s:\c files\data structures\data\queue implementation\linear queue #based on array\queue_type.h
+
+1604302872 source:s:\c files\data structures\data\queue implementation\linear queue #based on array\queue.c
+	<stdio.h>
+	<stdlib.h>
+	"QUEUE.h"
+

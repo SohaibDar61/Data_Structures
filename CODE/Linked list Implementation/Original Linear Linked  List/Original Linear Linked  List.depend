@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1604290992 source:s:\c files\data structures\#list\original linear linked  list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1604253989 s:\c files\data structures\#list\original linear linked  list\list.h
+	<stdio.h>
+	<stdlib.h>
+
+1604290939 source:s:\c files\data structures\#list\original linear linked  list\list.c
+	"list.h"
+
+1604303404 source:s:\c files\data structures\data\linked list implementation\original linear linked  list\list.c
+	"list.h"
+
+1604303404 s:\c files\data structures\data\linked list implementation\original linear linked  list\list.h
+	<stdio.h>
+	<stdlib.h>
+
+1604303322 source:s:\c files\data structures\data\linked list implementation\original linear linked  list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+

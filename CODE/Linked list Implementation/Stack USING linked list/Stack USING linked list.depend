@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1604254798 source:s:\c files\data structures\#list\codeblocks_linklist\stack using linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_list.h"
+
+1604254637 s:\c files\data structures\#list\codeblocks_linklist\stack using linked list\stack_list.h
+	<stdio.h>
+	<stdlib.h>
+
+1604254637 source:s:\c files\data structures\#list\codeblocks_linklist\stack using linked list\stack_list.c
+	"stack_list.h"
+
+1604289339 source:s:\c files\data structures\#stack\stack using linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_list.h"
+
+1604289572 s:\c files\data structures\#stack\stack using linked list\stack_list.h
+	<stdio.h>
+	<stdlib.h>
+
+1604289583 source:s:\c files\data structures\#stack\stack using linked list\stack_list.c
+	"stack_list.h"
+
