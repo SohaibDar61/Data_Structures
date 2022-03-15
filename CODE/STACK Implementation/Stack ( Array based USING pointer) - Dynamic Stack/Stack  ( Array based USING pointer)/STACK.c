@@ -6,8 +6,8 @@
 
 //===================================STATIC FUNCTIONS PROTOTYPE=====================================================//
 
-static Stack_Status_t StackFull(STACK* stack_obj);
-static Stack_Status_t StackEmpty(STACK* stack_obj);
+static uint8_t StackFull(STACK* stack_obj);
+static uint8_t StackEmpty(STACK* stack_obj);
 
 //==================================================================================================================//
 
@@ -54,7 +54,7 @@ STACK* CreateStack(uint32_t max_Size, Stack_Status_t *ret_status_t)
 
 }
 
-
+//=========================================================================================//
 
 /**
  * \brief  (Destroy)releases all memory to the heap.
@@ -76,7 +76,7 @@ STACK* DestoryStack(STACK* stack_obj, Stack_Status_t* ret_status_t){
     return NULL;
 }
 
-
+//=========================================================================================//
 /**
  * \brief  (Push_stack)pushes an item onto the stack.
  * \param  (STACK) pointer to the allocated stack in the heap
@@ -104,7 +104,7 @@ Stack_Status_t Push_Stack(STACK* stack_obj, void* Ptr_item)
 }
 
 
-
+//=========================================================================================//
 /**
  * \brief  (Pop_Stack)Pop an item from the stack.
  * \param  (STACK) pointer to the allocated stack in the heap
@@ -134,7 +134,7 @@ void* Pop_Stack(STACK* stack_obj, Stack_Status_t* ret_status_t)
   return Ptr_data_poped;
 }
 
-
+//=========================================================================================//
 /**
  * \brief  (StackTop) retrieves the data from the top of the
             stack without changing the stack
@@ -161,9 +161,9 @@ void* StackTop(STACK* stack_obj, Stack_Status_t* ret_status_t)
         *ret_status_t = STACK_OK;
     }
    }
-return Ptr_data_TOP;
+  return Ptr_data_TOP;
 }
-
+//=========================================================================================//
 
 /**
  * \brief  (StackSize)returns number of elements in stack.
@@ -187,28 +187,27 @@ Stack_Status_t StackSize(STACK* stack_obj, uint32_t* stack_size)
 }
 
 
-
+//=========================================================================================//
 
 
 /**
   * @brief  Check if the Stack is Full or Not
   * @param  (STACK) pointer to the allocated stack in the heap
-  * @retval (Stack_Status_t) status returned while performed this operation
+  * @retval (uint8_t)  returned 1 if ture or Zero if false
   */
-static Stack_Status_t StackFull(STACK* stack_obj)
+static uint8_t StackFull(STACK* stack_obj)
 {
     return(stack_obj->Size == stack_obj->MAXSize_STACK);
-
 }
 
-
+//=========================================================================================//
 /**
   * @brief  Check if the Stack is Empty or Not
   * @param  (STACK) pointer to the allocated stack in the heap
-  * @retval (Stack_Status_t) status returned while performed this operation
+  * @retval (uint8_t)  returned 1 if ture or Zero if false
   */
-static Stack_Status_t StackEmpty(STACK* stack_obj)
+static uint8_t StackEmpty(STACK* stack_obj)
 {
     return(stack_obj->Size == ZERO);
 }
-
+//=========================================================================================//
