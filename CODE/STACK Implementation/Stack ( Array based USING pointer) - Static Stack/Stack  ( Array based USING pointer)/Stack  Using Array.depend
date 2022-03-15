@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1603965342 source:s:\c files\data structures\#stack\stack  using array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"STACK.h"
+
+1603964965 s:\c files\data structures\#stack\stack  using array\stack.h
+	"STACK_Type.h"
+
+1603964941 source:s:\c files\data structures\#stack\stack  using array\stack.c
+	<stdio.h>
+	"STACK.h"
+
+1603964919 s:\c files\data structures\#stack\stack  using array\stack_type.h
+	<stdio.h>
+	<stdlib.h>
+
+1604301953 source:s:\c files\data structures\data\stack implementation\stack  ( array based using pointer)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"STACK.h"
+
+1604302237 s:\c files\data structures\data\stack implementation\stack  ( array based using pointer)\stack.h
+	"STACK_Type.h"
+
+1603966406 s:\c files\data structures\data\stack implementation\stack  ( array based using pointer)\stack_type.h
+	<stdio.h>
+	<stdlib.h>
+
+1604302237 source:s:\c files\data structures\data\stack implementation\stack  ( array based using pointer)\stack.c
+	<stdio.h>
+	"STACK.h"
+
+1646843321 source:c:\users\sohaib\downloads\compressed\data_structures-main\code\stack implementation\stack  ( array based using pointer)\stack.c
+	<stdio.h>
+	"STACK.h"
+
+1646833286 c:\users\sohaib\downloads\compressed\data_structures-main\code\stack implementation\stack  ( array based using pointer)\stack.h
+	"Stack_Types.h"
+
+1646422232 c:\users\sohaib\downloads\compressed\data_structures-main\code\stack implementation\stack  ( array based using pointer)\std_type.h
+	<stdio.h>
+	<stdlib.h>
+
+1646842827 source:c:\users\sohaib\downloads\compressed\data_structures-main\code\stack implementation\stack  ( array based using pointer)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"STACK.h"
+
+1646747975 c:\users\sohaib\downloads\compressed\data_structures-main\code\stack implementation\stack  ( array based using pointer)\stack_types.h
+
