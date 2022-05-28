@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1648741081 source:s:\c programming\data structure\queue\linear queue based on array (static queue)\main.c
+	"Platform_Types.h"
+	"queue.h"
+
+1648740471 s:\c programming\data structure\queue\linear queue based on array (static queue)\platform_types.h
+
+1648740471 s:\c programming\data structure\queue\linear queue based on array (static queue)\queue.h
+	<stdio.h>
+	<stdlib.h>
+	"Platform_Types.h"
+
+1648741174 source:s:\c programming\data structure\queue\linear queue based on array (static queue)\queue.c
+	"queue.h"
+	"Platform_Types.h"
+
